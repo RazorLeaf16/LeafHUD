@@ -1,0 +1,36 @@
+"Resource/UI/Speedometer.res"
+{
+	"Speedometer"
+	{
+		"controlName"								"ImagePanel"
+		"fieldName"									"Speedometer"
+		"xpos"										"cs-0.5"
+		"ypos"										"c179"
+		"zpos"										"2"
+		"wide"										"48"
+		"tall"										"12"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"image"										"replay/thumbnails/speedometer/speed"
+		"scaleimage"								"1"
+		"drawcolor"									"White"
+	}
+	"SpeedometerShadow"
+	{
+		"controlName"								"ImagePanel"
+		"fieldName"									"SpeedometerShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"1"
+		"wide"										"48"
+		"tall"										"12"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"image"										"replay/thumbnails/speedometer/speed"
+		"scaleimage"								"1"
+		"drawcolor"									"Black"
+		"pin_to_sibling"							"Speedometer"
+	}
+}
